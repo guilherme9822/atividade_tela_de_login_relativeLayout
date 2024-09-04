@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="botaofundo">#DADADA</color>
+    <color name="fundo">#08AD7F</color>
+    <color name="text">#08AD7F</color>
+    <color name="edittext">#fff</color>
+</resources>

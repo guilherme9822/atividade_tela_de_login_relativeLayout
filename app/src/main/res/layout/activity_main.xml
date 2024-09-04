@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/esquece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:text="Esqueceu sua senha?" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="440dp"
+        android:paddingStart="8dp"
+        android:padding="2dp"
+        android:background="@color/edittext"
+        android:textSize="15sp"
+        android:hint="Email"
+        android:textColorHint="@color/text"/>
+
+    <EditText
+        android:id="@+id/editsenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="6dp"
+        android:padding="2dp"
+        android:paddingStart="8dp"
+        android:layout_below="@+id/editemail"
+        android:background="@color/edittext"
+        android:layout_centerInParent="true"
+        android:hint="Senha"
+        android:textSize="15sp"
+        android:textColorHint="@color/text"/>
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_below="@+id/editsenha"
+        android:layout_centerInParent="true"
+        android:hint="Login"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/botaofundo"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonlogin"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="7dp"
+        android:text="Ainda não é cadrastado?Cadastre-se" />
+
+
+
+
+
+
+
+</RelativeLayout>
